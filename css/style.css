@@ -188,13 +188,6 @@ form textarea {
   background-color: #292c2f;
 }
 
-#register img {
-    position: absolute;
-    left: 70%;
-    height: 745px;
-    opacity: 0.25;
-}
-
 #register h3 {
   color: #00FF80;
 }
@@ -211,10 +204,11 @@ form textarea {
 }
 
 
-/* WORK SECTION********************************************************/
+/* GALLERY SECTION********************************************************/
 #gallery {
   background-color: #292f32;
   margin-bottom: -40px;
+  overflow: auto;
 }
 
 #gallery h3 {
@@ -243,6 +237,7 @@ form textarea {
   border-color: #00FF80;
   border-radius: 0.75px;
   opacity: 0.5;
+  margin-bottom: 50px;
 }
 
 #projects img:hover {
